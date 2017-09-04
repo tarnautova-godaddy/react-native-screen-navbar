@@ -160,9 +160,7 @@ class ExampleProject extends Component {
   }
 }
 
-type Styles = {[key: string]: Object};
-
-const styles: Styles = StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',

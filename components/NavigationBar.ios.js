@@ -1,15 +1,11 @@
-import React from 'react';
+// @flow
 
 function noop() {}
 
-
-class NavigationBar extends React.PureComponent {
-  static currentHeight: 0;
-  static setBackgroundColor: noop;
-  static setTranslucent: noop;
-  render() {
-    return null;
-  }
+const NavigationBar = {
+  currentHeight: 0,
+  setBackgroundColor: noop,
+  setTranslucent: noop,
 }
 
 export default NavigationBar;
