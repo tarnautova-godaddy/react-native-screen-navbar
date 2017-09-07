@@ -1,5 +1,7 @@
-# react-native-onscreen-navbar
-A React Native component to customize the Navigation Bar looks on Android.
+# react-native-screen-navbar
+React Native library for changing android Navigation Bar color & visibility.
+
+Use [react-native-onscreen-navbar](https://github.com/jazmon/react-native-onscreen-navbar) library if you want react components.
 
 ![](http://i.imgur.com/g95jWQ5.gif)
 
@@ -16,7 +18,7 @@ NavigationBar.setTranslucent(true)
 `npm install react-native-screen-navbar --save`
 
 #### Linking (automatically)
-`react-native link react-native-onscreen-navbar`
+`react-native link react-native-screen-navbar`
 
 #### Linking (manually)
 
