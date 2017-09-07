@@ -5,13 +5,13 @@ import {
   NativeModules,
 } from 'react-native';
 
+import {
+  type NavigationBarType
+} from '../types'
+
+
 const NavigationBarManager = NativeModules.NavigationBarManager;
 
-type NavigationBarType = {
-  currentHeight: number,
-  setBackgroundColor: (color: string, animated?: boolean) => void,
-  setTranslucent: (translucent: boolean) => void,
-}
 
 const NavigationBar: NavigationBarType = {
   currentHeight: NavigationBarManager == null ? 0 : NavigationBarManager.HEIGHT,
