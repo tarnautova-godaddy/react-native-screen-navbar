@@ -1,19 +1,16 @@
 {
-  "name": "react-native-onscreen-navbar",
+  "name": "react-native-screen-navbar",
   "version": "1.2.0",
-  "description": "Onscreen navigation bar customization component for Android",
+  "description": "Android navbar color & visibility",
   "main": "index.js",
   "directories": {
     "example": "examples"
   },
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "lint": "./node_modules/.bin/eslint -c .eslintrc.js src",
-    "lint:fix": "./node_modules/.bin/eslint -c .eslintrc.js src --fix",
     "flow": "./node_modules/.bin/flow"
   },
   "repository": {
-    "url": "git+https://github.com/Jazmon/react-native-onscreen-navbar.git",
+    "url": "git+https://github.com/jeremistadler/react-native-screen-navbar.git",
     "type": "git"
   },
   "keywords": [
@@ -25,7 +22,6 @@
     "react",
     "native",
     "onscreen",
-    "on",
     "screen",
     "navbar",
     "nav",
@@ -35,25 +31,14 @@
     "translucent"
   ],
   "author": "Atte Huhtakangas <atte.huhtakangas@gmail.com>",
+  "contributors": "Jeremi Stadler <stadler.jeremi@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Jazmon/react-native-onscreen-navbar/issues"
+    "url": "https://github.com/jeremistadler/react-native-onscreen-navbar/issues"
   },
-  "homepage": "https://github.com/Jazmon/react-native-onscreen-navbar#readme",
+  "homepage": "https://github.com/jeremistadler/react-native-onscreen-navbar",
   "peerDependencies": {
     "react": ">=16.0.0-alpha.12",
     "react-native": ">=0.47.2"
-  },
-  "devDependencies": {
-    "eslint": "^3.10.0",
-    "eslint-config-airbnb": "^13.0.0",
-    "eslint-plugin-babel": "^3.3.0",
-    "eslint-plugin-flowtype": "^2.25.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^2.2.3",
-    "eslint-plugin-react": "^6.6.0",
-    "eslint-plugin-react-native": "^2.0.0",
-    "eslint-plugin-sort-class-members": "^1.1.1",
-    "flow-bin": "^0.35.0"
   }
 }

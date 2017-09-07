@@ -1,4 +1,4 @@
-package com.attehuhtakangas.navigationbar;
+package com.navbar.navigationbar;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;

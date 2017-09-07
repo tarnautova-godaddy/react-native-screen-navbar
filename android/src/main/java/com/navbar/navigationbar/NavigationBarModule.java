@@ -1,4 +1,4 @@
-package com.attehuhtakangas.navigationbar;
+package com.navbar.navigationbar;
 
 import android.animation.ArgbEvaluator;
 import android.animation.ValueAnimator;
